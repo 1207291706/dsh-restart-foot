@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "Sidebar restart button",
+    "description": "Adds a restart button at the sidebar foot, directly above the avatar/settings entry: two clicks confirm, then the whole application process tree stops and starts again."
+  },
+  "restartFoot": {
+    "action": "Restart DeepSeek Harness",
+    "aria": "Restart the application: quit the whole app process and start it again",
+    "armed": "Click again to confirm",
+    "busy": "Restarting…",
+    "failed": "Restart failed — quit and open the app manually"
+  }
+}
