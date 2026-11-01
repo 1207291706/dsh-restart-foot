@@ -48,12 +48,24 @@ settings / account seat:
 
 ## Install / 安装
 
-```sh
-# from npm
-dsh plugin add dsh-restart-foot
+**From GitHub (current route / 当前安装方式):**
 
-# or into a named profile
-dsh plugin add --profile desktop dsh-restart-foot
+```sh
+dsh plugin add github:1207291706/dsh-restart-foot
+# same source, explicit git form / 同一来源的 git 写法
+dsh plugin add git+https://github.com/1207291706/dsh-restart-foot.git
+# into a named profile / 指定 profile
+dsh plugin add --profile desktop github:1207291706/dsh-restart-foot
+```
+
+**From npm — not available yet / 暂未上架 npm:** the package is finished and packed
+(`npm publish --dry-run` passes), but `www.npmjs.com` returns 403 on the author's network,
+so the account cannot be registered from there. The npm form below starts working the day
+it is published: 包已经打好、`npm publish --dry-run` 通过，但作者所在网络访问 `www.npmjs.com`
+返回 403，无法注册账号；下面这条命令在正式上架后即可使用。
+
+```sh
+dsh plugin add dsh-restart-foot
 ```
 
 Then refresh the page (or restart once the old way) to pick up the client module.
