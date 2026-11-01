@@ -4,6 +4,15 @@
   "description": "Restart button at the sidebar foot, directly above the Settings entry: stops the whole desktop app process tree and starts it again.",
   "type": "module",
   "license": "MIT",
+  "author": "inn <1207291706@users.noreply.github.com>",
+  "homepage": "https://github.com/1207291706/dsh-restart-foot#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1207291706/dsh-restart-foot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1207291706/dsh-restart-foot/issues"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",
